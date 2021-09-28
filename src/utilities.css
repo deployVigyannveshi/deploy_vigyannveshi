@@ -1,0 +1,98 @@
+/*Importing Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Sriracha&family=Open+Sans:ital,wght@1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/*declaring required variables*/
+:root
+{
+    --f1:'Sriracha', cursive;
+    --f2:'Oswald', sans-serif;
+    --f3:'Montserrat', sans-serif;
+    --f4:'Noto Sans', sans-serif;
+    --f5:'Open Sans', sans-serif;
+    --f6:'Times New Roman', Times, serif;
+}
+:root {
+    /*colors used*/
+
+    /*background-white-shades*/
+    --b: #ffffff; /*white*/
+    --b1: #f0fff0; /*honey-dew*/
+    --b2: #fffff0; /*ivory*/
+    --b3: #fffaf0; /*floral white ->used*/
+    --b4:	#ffe4bc; /*jedynka elefántcsont->used*/
+    --b5: #fff5ee; /*sea-shell*/
+    --b6: #faebd7; /*antique-white->used*/
+
+    /*inner*/
+    --i1: #00ffff; /*cyan*/
+    --i2: #daa520; /*golden-rod*/
+    --i3: #ffd700; /*gold*/
+
+    /*green*/
+    --g1: #39ff14; /*neon-green -->used*/
+    --g2: #228b22; /*forest-green->used*/
+    --g3: #17684f; /*peacock-green->used*/
+
+    /*lightest-shades*/
+    --l1: #ffff00; /*neon-yellow->used*/
+    --l2: #aaff00; /*light-green*/
+
+    /*red*/
+    --r1: #ff2400; /*scarlet-red ->used*/
+    --r2: #d2042d; /*cherry-red ->used*/
+
+    /*separator*/
+    --s1: #302201; /*golden-brown-->used*/
+    
+    /*text*/
+    --t: #003153;  /*prussian-blue->used*/
+    --t1: #191970; /*midnight-blue->used*/
+    --t2:#008080;  /*teal->used*/
+    --t3: #111425; /*bluish black->used*/
+    --t4: #3f4954; /*special-gray*/
+    --t5: #326872; /*peacock-blue*/
+
+    /*gradients*/
+    --Gr1: linear-gradient(to bottom, #fffeff 0%, #d7fffe 100%);
+    --Gr2: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    --Gr3: linear-gradient(to bottom, var(--t) 0%, var(--t1) 100%);
+    --Gr4: linear-gradient(to top, var(--r2) 0%, #453a94 100%);
+    --Gr5: linear-gradient(to bottom, var(--r2) 0%, #453a94 100%);
+    --G4: linear-gradient(to bottom, #fffeff 0%, #d7fffe 100%); /*ilikeit*/
+    --G6: linear-gradient(
+      -225deg,
+      #fffeff 0%,
+      #d7fffe 100%
+    ); /*salt-mountain*/
+    --G7: linear-gradient(
+      to right,
+      var(--r2) 0%,
+      #453a94 100%
+    ); /*cherry-red-salvation*/
+    --G8: linear-gradient(
+      to left,
+      var(--r2) 0%,
+      #453a94 100%
+    ); /*cherry-red-salvation*/
+    --G9: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); /*sky*/
+    --G10: linear-gradient(
+      to bottom,
+      var(--l1) 0%,
+      var(--g1) 100%
+    ); /*special-red*/
+    --G11: linear-gradient(
+      -225deg,
+      #b9fcc0 0%,
+      #d7fffe 100%
+    ); /*salt-mountain*/
+    --G12: linear-gradient(to top, #96fbc4 0%, #f9f586 100%); /*lemon-gate*/
+    --G13: linear-gradient(to top, #f9f586 0%, #96fbc4 100%); /*lemon-gate*/
+  }
+
+
+
+
+
+
+
+

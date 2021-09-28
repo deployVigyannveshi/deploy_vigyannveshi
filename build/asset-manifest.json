@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2dfe592.chunk.css",
+    "main.js": "/static/js/main.dd9a45fa.chunk.js",
+    "main.js.map": "/static/js/main.dd9a45fa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.778da1e2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.778da1e2.js.map",
+    "static/js/2.5cdeb85d.chunk.js": "/static/js/2.5cdeb85d.chunk.js",
+    "static/js/2.5cdeb85d.chunk.js.map": "/static/js/2.5cdeb85d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a2dfe592.chunk.css.map": "/static/css/main.a2dfe592.chunk.css.map",
+    "static/js/2.5cdeb85d.chunk.js.LICENSE.txt": "/static/js/2.5cdeb85d.chunk.js.LICENSE.txt",
+    "static/media/5_simple_steps_to_create_2_in_1_Voltage.8b517ac5.pdf": "/static/media/5_simple_steps_to_create_2_in_1_Voltage.8b517ac5.pdf",
+    "static/media/Just_Predict_the_Remainder.ee551c7c.pdf": "/static/media/Just_Predict_the_Remainder.ee551c7c.pdf",
+    "static/media/a11.b709fbb2.png": "/static/media/a11.b709fbb2.png",
+    "static/media/a12.4f1c4cb7.png": "/static/media/a12.4f1c4cb7.png",
+    "static/media/a21.ce5855a2.png": "/static/media/a21.ce5855a2.png",
+    "static/media/a22.af34dcf7.png": "/static/media/a22.af34dcf7.png",
+    "static/media/a31.c92c5ba9.png": "/static/media/a31.c92c5ba9.png",
+    "static/media/a32.559cd5ca.png": "/static/media/a32.559cd5ca.png",
+    "static/media/components.9c16b9e5.png": "/static/media/components.9c16b9e5.png",
+    "static/media/doubt.d0088dd2.png": "/static/media/doubt.d0088dd2.png",
+    "static/media/featured_img.7e4a5ff4.png": "/static/media/featured_img.7e4a5ff4.png",
+    "static/media/featured_img.84ff75fd.png": "/static/media/featured_img.84ff75fd.png",
+    "static/media/featured_img.b36de8e1.svg": "/static/media/featured_img.b36de8e1.svg",
+    "static/media/idea.7e852b85.png": "/static/media/idea.7e852b85.png",
+    "static/media/main_img.4ea57db6.png": "/static/media/main_img.4ea57db6.png",
+    "static/media/main_logo.6fd8f5d0.svg": "/static/media/main_logo.6fd8f5d0.svg",
+    "static/media/step1.ea3874eb.png": "/static/media/step1.ea3874eb.png",
+    "static/media/step2.fb066824.png": "/static/media/step2.fb066824.png",
+    "static/media/step3.4c0fe9d1.png": "/static/media/step3.4c0fe9d1.png",
+    "static/media/step4.7e20006a.png": "/static/media/step4.7e20006a.png",
+    "static/media/step5.f3de1169.png": "/static/media/step5.f3de1169.png",
+    "static/media/tools.36529c67.png": "/static/media/tools.36529c67.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.778da1e2.js",
+    "static/js/2.5cdeb85d.chunk.js",
+    "static/css/main.a2dfe592.chunk.css",
+    "static/js/main.dd9a45fa.chunk.js"
+  ]
+}

@@ -1,0 +1,137 @@
+@import url("../../utilities.css");
+@import url("../post.css");
+
+
+/*disclaimer*/
+.disclaimer h2
+{
+    color:var(--r2);
+    font-size: var(--pst2);
+    font-family: var(--f1);
+    padding-left:10px;
+}
+.disclaimer p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;
+    padding:10px;
+}
+/*pdf file downloading options*/
+.disclaimer p #pdfDownload
+{
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--s1);
+    font-family: var(--f3);
+    font-size: var(--pst4);
+}
+
+.download_icon
+{
+    fill:red;
+    height: var(--pst4);
+    width: var(--pst4);
+    padding: 0;
+    margin: 0;
+}
+
+/*Requirements*/
+.requirements
+{
+    padding:0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.requirements h2
+{
+    color:var(--r2);
+    font-size: var(--pst2);
+    font-family: var(--f1);
+}
+.requirements h3
+{
+    color:var(--t2);
+    font-size: var(--pst3);
+    font-family: var(--f1);
+}
+.requirements p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;
+    padding-top:15px;
+}
+/*Procedure*/
+.procedure
+{
+    padding:0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.procedure h2
+{
+    color:var(--r2);
+    font-size: var(--pst2);
+    font-family: var(--f1);
+}
+.procedure h3
+{
+    color:var(--t2);
+    font-size: var(--pst3);
+    font-family: var(--f1);
+}
+.procedure p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;
+    padding-top:15px;
+}
+/*Testing*/
+.testing
+{
+    padding:0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.testing h2
+{
+    color:var(--r2);
+    font-size: var(--pst2);
+    font-family: var(--f1);
+}
+.testing p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;
+    padding-top:15px;
+}
+
+/*Conclusion*/
+.conclusion
+{
+    margin-bottom:20px;
+    padding:0px 10px;
+    display: flex;
+    flex-direction: column;  
+}
+.conclusion p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;    
+}
+.conclusion a
+{
+    text-decoration: none;
+    color:var(--t1);
+}

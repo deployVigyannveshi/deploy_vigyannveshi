@@ -1,0 +1,150 @@
+@import url(../../utilities.css);
+/* Global Variables used
+--v1:font size of main heading
+--v2:font size of main heading-span
+--vw:default width of vidya-page
+*/
+:root
+{
+    --vw:85vw;
+    --v1:1.5rem;
+    --v2:2rem;
+}
+/*Main_Content*/
+.vidya
+{
+    width:var(--vw);
+    padding:20px 10px;
+    background-color:var(--b3);
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+}
+h1.main_heading
+{
+    padding: 0px 20px;
+    font-size: var(--v1);
+    font-family: var(--f1);
+    color:var(--g3);
+    font-weight: 200;
+}
+h1.main_heading span
+{
+    font-size: var(--v2);
+    font-weight: 600;
+}
+
+/*Media queries*/
+
+/*Max-width media Queries*/
+
+/*Media queries for <=800px width*/
+@media only screen and (max-width:800px)
+{
+    :root
+    {
+        --v1:1.4rem;
+        --v2:1.9rem;
+    }
+}
+
+/*Media Queries for width<=760*/
+@media only screen and (max-width:760px)
+{
+    :root
+    {
+        --vw:95vw;
+    }
+}
+
+/*Media Queries for width<=680*/
+@media only screen and (max-width:680px)
+{
+    :root
+    {
+        --vw:100vw;
+        --v1:1.3rem;
+        --v2:1.8rem;
+    }
+    /*readjusting the padding of heading*/
+    h1.main_heading
+    {
+        padding: 0px 10px;
+    }
+}
+/*Media Queries for width<=550*/
+@media only screen and (max-width:550px)
+{
+    :root
+    {
+        --v1:1.2rem;
+        --v2:1.6rem;
+    }
+}
+/*Media Queries for width<=400*/
+@media only screen and (max-width:400px)
+{
+    :root
+    {
+        --v1:1.0rem;
+        --v2:1.5rem;
+    }
+}
+
+/*Media queries for <=320px width*/
+@media only screen and (max-width:320px)
+{
+    :root
+    {
+        --v1:0.9rem;
+        --v2:1.3rem;
+    }
+}
+
+/*Min-width media Queries*/
+
+/*Media queries for >=1600px width*/
+@media only screen and (min-width:1600px)
+{
+    :root
+    {
+        --v1:1.8rem;
+        --v2:2.2rem;
+    }
+}
+/*Media queries for >=1800px width*/
+@media only screen and (min-width:1800px)
+{
+    :root
+    {
+        --v1:2rem;
+        --v2:2.5rem;
+    }
+}
+/*Media queries for >=2000px width*/
+@media only screen and (min-width:2000px)
+{
+    :root
+    {
+        --v1:2.2rem;
+        --v2:2.7rem;
+    }
+}
+/*Media queries for >=2200px width*/
+@media only screen and (min-width:2200px)
+{
+    :root
+    {
+        --v1:2.4rem;
+        --v2:2.9rem;
+    }
+}
+/*Media queries for >=2400px width*/
+@media only screen and (min-width:2400px)
+{
+    :root
+    {
+        --v1:2.6rem;
+        --v2:3.1rem;
+    }
+}

@@ -1,0 +1,469 @@
+@import url(../../utilities.css);
+/*
+    Global Variables used
+    --a1:for font-size of skill-para and profile-para
+    --a2:for font-size of intro-para
+    --a3:for font-size of headers of skill and profile and goto buttons within intro
+    --a4:for font-size of header of contact
+    --a5:for font-size of para of contact
+    --a6:for width and height of the slider and the image inside and also the profile pic
+    --aw:default width of about page
+    --an:number of images in skills, abilities and  interest
+*/
+:root
+{
+    --a1:1rem;
+    --a2:1rem;
+    --a3:1rem;
+    --a4:1.5rem;
+    --a5:1.25rem;
+    --a6:150px;
+    --aw:85vw;
+    --an:17;
+}
+/*Introduction about VigyannVeshi*/
+#about
+{
+    /*outer adustments*/
+    width:var(--aw);
+    padding:10px 10px;
+    /*inner adjustments*/
+    background-color:var(--b3);
+    display: grid;
+    grid-template-columns: repeat(1,90% );
+    justify-content:space-around;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goto
+{
+    list-style: none;
+    margin:0px 20px 10px 20px;
+    padding:5px;
+    border-radius: 10px;
+    background: var(--Gr2);
+    font-size: var(--a3);
+    color: var(--r2);
+    cursor: pointer;
+}
+.goto_link
+{
+    color: var(--r2);
+    text-decoration: none;
+}
+.goto:hover
+{
+    font-weight: bolder;
+}
+.goto_link:hover
+{
+    font-weight: bolder;
+}
+p#intro
+{
+    color: var(--t);
+    font-family: var(--f1);
+    padding:10px;
+    font-size: var(--a2);
+    text-align: center;
+}
+/*Main Image:VigyannVeshi*/
+.main_img
+{
+    width:var(--aw);
+    padding:0px 10px;   
+    background:linear-gradient(to right, var(--b3) 0%,var(--b3) 10%,transparent 10%, transparent 90%,var(--b3) 90% ,var(--b3) 100%);
+}
+.topbottomBorder
+{
+    width:100%;
+    padding:20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to bottom, var(--b3) 0%,var(--b3) 3%,transparent 3%, transparent 97%,var(--b3) 97% ,var(--b3) 100%);   
+}
+.main_img img
+{
+    width:80%;
+}
+
+/*Seeker*/
+#seeker
+{
+    /*outer adustments*/
+    width:var(--aw);
+    padding:10px 10px;
+    /*inner adjustments*/
+    background-color:var(--b3);
+    display: grid;
+    grid-template-columns: repeat(2,45% );
+    justify-content: space-around;
+}
+/*Profile and Profile-Pic*/
+.profile
+{
+    display: flex;
+    flex-direction: column;
+}
+.profile img
+{
+    width:var(--a6);
+    height:var(--a6);
+}
+.profile h3{
+    font-weight:bold;
+    font-family: var(--f1);
+    color:var(--g2);
+    padding: 0px 10px;
+    font-size: var(--a3);
+}
+.profile p{
+    font-family: var(--f1);
+    color:var(--t);
+    padding:0px 10px;
+    font-size: var(--a1);
+    display: flex;
+    flex-direction: column;
+}
+
+/*Courses and bootcamps-Adding a lightbox certificate viewer*/
+.profile p span
+{
+    color:var(--b1);
+    font-family: var(--f2);
+    align-self: flex-end;
+    background: var(--t2);
+    padding:0px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Skills*/
+.skill{
+    display: flex;
+    flex-direction: column;
+}
+.skill h3{
+    font-weight:bold;
+    font-family: var(--f1);
+    color:var(--g2);
+    padding: 0px 10px;
+    font-size: var(--a3);
+}
+.skill p{
+    font-family: var(--f1);
+    color:var(--t);
+    padding:0px 10px;
+    font-size: var(--a1);
+}
+/*Higlighting-Learner*/
+.skill p span
+{
+    color:var(--r1);
+}
+
+/*Slider*/
+.slider
+{
+    width:var(--a6);
+    height:var(--a6);
+    display: grid;
+    grid-template-columns: repeat(var(--an),1fr );
+    margin-left:10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.slider img
+{
+    width: var(--a6);
+    height:var(--a6);
+    position: relative;
+    animation-name:slide_animation;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-play-state:running
+}
+/*slide_animation*/
+
+@keyframes slide_animation
+{
+    0%{right:calc((var(--a6))*0);}
+    6.25%{right:calc(var(--a6)*1);}
+    12.50%{right:calc(var(--a6)*2);}
+    18.75%{right:calc(var(--a6)*3);}
+    25.00%{right:calc(var(--a6)*4);}
+    31.25%{right:calc(var(--a6)*5);}
+    37.50%{right:calc(var(--a6)*6);}
+    43.75%{right:calc(var(--a6)*7);}
+    50.00%{right:calc(var(--a6)*8);}
+    56.25%{right:calc(var(--a6)*9);}
+    62.50%{right:calc(var(--a6)*10);}
+    68.75%{right:calc(var(--a6)*11);}
+    75.00%{right:calc(var(--a6)*12);}
+    81.25%{right:calc(var(--a6)*13);}
+    87.50%{right:calc(var(--a6)*14);}
+    93.75%{right:calc(var(--a6)*15);}
+    100.00%{right:calc(var(--a6)*16);}
+}
+
+/*contact*/
+#contact
+{
+    /*outer adustments*/
+    width:var(--aw);
+    padding:10px;
+    /*inner adjustments*/
+    background-color:var(--b3);
+    display: grid;
+    grid-template-columns: repeat(1,1fr );
+}
+#contact h2
+{
+    font-weight:bold;
+    font-family: var(--f1);
+    color:var(--g2);
+    text-align: center; 
+    background-color:var(--b6);
+    border-radius: 10px 10px 0px 0px ;
+    font-size:var(--a4);
+    padding-top:5px;
+}
+#contact p
+{
+    font-family: var(--f1);
+    color:var(--t);
+    padding: 0px 10px 15px 10px;
+    text-align: center; 
+    background-color:var(--b6);
+    font-size:var(--a5);
+    border-radius:0px 0px  10px 10px ;
+}
+#contact p a
+{
+    text-decoration: none;
+}
+
+ /*Media Queries*/
+/*Max-width media Queries*/
+
+/*Media queries for <=940px width*/
+@media only screen and (max-width:940px)
+{
+    :root
+    {
+        --a1:0.95rem;
+    }
+}
+/*Media queries for <=895px width*/
+@media only screen and (max-width:895px)
+{
+    :root
+    {
+        --a1:0.90rem;
+    }
+}
+
+/*Media queries for <=805px width*/
+@media only screen and (max-width:805px)
+{
+    :root
+    {
+        --a1:0.85rem;
+    }
+}
+/*Media Queries for width<=760*/
+@media only screen and (max-width:760px)
+{
+    :root
+    {
+        --a1:0.88rem;
+        --aw:95vw;
+    }
+}
+/*Media Queries for width<=680*/
+@media only screen and (max-width:680px)
+{
+    :root
+    {
+        --aw:100vw;
+    }
+}
+/*Media queries for <=650px width*/
+@media only screen and (max-width:650px)
+{
+    :root
+    {
+        --a1:0.83rem;
+    }
+}
+/*Media queries for <=610px width*/
+@media only screen and (max-width:610px)
+{
+    :root
+    {
+        --a1:1rem;
+    }
+    #seeker
+    {
+        grid-template-columns: repeat(1,90%);
+    }
+    .profile img
+    {
+        margin-left:10px;
+    }
+    /*Removing border radius in contact and views*/
+    #contact h2
+    {
+        border-radius: 0px;
+    }
+    #contact p
+    {
+        border-radius: 0px;
+    }
+}
+/*Media queries for <=450px width*/
+@media only screen and (max-width:450px)
+{
+    :root
+    {
+        --a4:1.25rem; 
+        --a5:1rem;
+    }
+}
+
+/*Media queries for <=380px width*/
+@media only screen and (max-width:380px)
+{
+    #seeker
+    {
+        grid-template-columns: repeat(1,100%);
+
+    }
+    :root
+    {
+        --a1:1rem;
+    }
+}
+/*Media queries for <=360px width*/
+@media only screen and (max-width:360px)
+{
+    :root
+    {
+        --a1:0.95rem;
+    }
+}
+/*Media queries for <=345px width*/
+@media only screen and (max-width:345px)
+{
+    :root
+    {
+        --a1:0.9rem;
+    }
+}
+/*Media queries for <=325px width*/
+@media only screen and (max-width:325px)
+{
+    :root
+    {
+        --a2:0.95rem;
+        --a4:1rem;
+        --a5:0.9rem;
+        --a6:120px;
+    }
+
+}
+/*Media queries for <=300px width*/
+@media only screen and (max-width:300px)
+{
+    :root
+    {
+        --a1:0.85rem;
+    }
+}
+/*Media queries for <=290px width*/
+@media only screen and (max-width:290px)
+{
+    :root
+    {
+        --a1:0.8rem;
+    }
+}
+/*Media queries for <=250px width*/
+@media only screen and (max-width:250px)
+{
+    .nav
+    {
+        flex-direction: column;
+    }
+}
+
+/*Min-width media Queries*/
+/*Media queries for >=1024px width*/
+@media only screen and (min-width:1024px)
+{
+    :root
+    {
+        --a1:1.1rem;
+        --a2:1.1rem;
+        --a3:1.3rem;
+        --a6:170px;
+    }
+}
+/*Media queries for >=1440px width*/
+@media only screen and (min-width:1440px)
+{
+    :root
+    {
+        --a1:1.5rem;
+        --a2:1.5rem;
+        --a3:1.8rem;
+        --a4:1.6rem;
+        --a5:1.3rem;
+        --a6:200px;
+    }
+    .topbottomBorder{
+        padding:45px 0px;
+   
+    }
+}
+/*Media queries for >=1600px width*/
+@media only screen and (min-width:1600px)
+{
+    :root
+    {
+        --a4:1.75rem;
+        --a5:1.6rem;
+    }
+}
+/*Media queries for >=1920px width*/
+@media only screen and (min-width:1920px)
+{
+    :root
+    {
+        --a1:1.8rem;
+        --a2:1.8rem;
+        --a3:2.2rem;
+        --a4:2.2rem;
+        --a5:1.8rem;
+        --a6:300px;  
+    }
+}
+/*Media queries for >=2300px width*/
+@media only screen and (min-width:2300px)
+{
+    :root
+    {
+        --a1:2.3rem;
+        --a2:2.3rem;
+        --a3:2.7rem;
+        --a4:2.7rem;
+        --a5:2.3rem;
+        --a6:300px;
+    }
+}

@@ -1,0 +1,183 @@
+@import url(../../utilities.css);
+
+/*Global Variables
+--ft1:font size of text in f1 and f2
+--ft2:width and height of double angle up
+--ftw: default width of navbar
+*/
+:root
+{
+   --ftw: 85vw;
+   --ft1:1rem;
+   --ft2:2rem;
+}
+
+.footer{
+    /*background, size and attachments*/
+    /* background-color: var(--t); */
+    background: var(--Gr3);       
+    width: var(--ftw);
+    border-radius: 0px 0px 15px 15px ;
+
+    /*container positioning*/
+    padding:5px 10px;
+    margin-bottom:5vh;
+
+    /*inner content adjustment*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    /*Inner Text*/
+    color: var(--g1);
+}
+.f1
+{
+    font-family: var(--f2);
+    font-weight: 100;
+    text-align: center;
+    font-weight: 400;
+    font-size: var(--ft1);
+}
+.f2{
+    text-align: center;
+    font-family: var(--f4);
+    font-weight: 500;
+    font-size: var(--ft1);
+}
+.moveup
+{
+    width:var(--ft2);
+    height:var(--ft2);
+    position: absolute;
+    right:5%;
+    bottom:10%; 
+    border-radius: 2rem;
+    padding:.5rem;
+    background: var(--Gr4);       
+    fill:var(--g1);       
+}
+.moveup:hover
+{
+    fill:var(--l1);  
+    background: var(--Gr5);     
+}
+
+/*Max-width media Queries*/
+
+/*Media Queries for width<=760*/
+@media only screen and (max-width:760px)
+{
+    :root
+    {
+        --ftw:95vw;
+    }
+    .footer 
+    {
+        margin-bottom:1vh;
+    }
+}
+/*Media Queries for width<=680*/
+@media only screen and (max-width:680px)
+{
+    :root
+    {
+        --ftw:100vw;
+        --ft2:1.5rem;
+    }
+    .footer 
+    {
+        margin-bottom:0vh;
+        border-radius: 0px;
+    }
+}
+/*Media Queries for width<=400*/
+@media only screen and (max-width:400px)
+{
+    :root
+    {
+       --ft2:1rem;
+    }
+}
+
+/*Min-width media Queries*/
+/*Media queries for >=1300px width*/
+@media only screen and (min-width:1300px)
+{
+    :root
+    {
+        --ft2:2.1rem;
+        --ft1:1rem;
+    }
+}
+/*Media queries for >=1440px width*/
+@media only screen and (min-width:1440px)
+{
+    :root
+    {
+        --ft2:2.5rem;
+        --ft1:1rem;
+    }
+}
+/*Media queries for >=1500px width*/
+@media only screen and (min-width:1500px)
+{
+    :root
+    {
+        --ft1:1.2rem;
+        --ft2:2.6rem;
+    }
+}
+/*Media queries for >=1700px width*/
+@media only screen and (min-width:1700px)
+{
+    :root
+    {
+        --ft1:1.4rem;
+        --ft2:2.7rem;
+    }
+    /*getting circular border radius for angular up*/
+    .moveup
+    {
+        border-radius: 50%;
+    }
+}
+/*Media queries for >=1900px width*/
+@media only screen and (min-width:1900px)
+{
+    :root
+    {
+        --ft1:1.5rem;
+        --ft2:3.0rem;
+    }
+}
+/*Media queries for >=2100px width*/
+@media only screen and (min-width:2100px)
+{
+    :root
+    {
+        --ft1:1.7rem;
+        --ft2:3.2rem;
+    }
+}
+/*Media queries for >=2300px width*/
+@media only screen and (min-width:2300px)
+{
+    :root
+    {
+        --ft2:3.5rem;
+        --ft1:1.8rem;
+    }
+
+}
+/*Media queries for >=2500px width*/
+@media only screen and (min-width:2500px)
+{
+    :root
+    {
+        --ft2:4rem;
+        --ft1:2rem;
+    }
+}

@@ -1,0 +1,274 @@
+@import url(../../utilities.css);
+/*Global Variables
+--n1:for width and height of logo in navbar
+--n2:for width and height of bar in navbar
+--n3:font-size of text in navbar
+--nw: default width of navbar
+*/
+
+:root
+{
+   --n1:3.125rem; 
+   --n2:1.5rem;
+   --n3:1.2rem;
+   --nw: 85vw;
+}
+
+/*Navbar*/
+.navbar
+{
+    background: var(--Gr1);
+    width: var(--nw);
+    padding:0 10px;
+    margin-top:5vh;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*logo*/
+.logo img
+{
+    width:var(--n1);
+    height:var(--n1);
+    padding:5px 5px;
+}
+/*bars for hamburger menu*/
+.bar
+{
+    display:none;
+    width:var(--n2);
+    height:var(--n2);
+    position:absolute;
+    right:10px;
+    top:10px;
+    fill: var(--r2);
+    cursor:pointer;
+}
+
+/*Navbar-content*/
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li 
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin:0px 10px;
+}
+.navbar ul li .link
+{
+    text-decoration: none;
+    font-family: var(--f1);
+    font-weight: 300;
+    padding:5px;
+    color: var(--r1);
+    font-size:var(--n3);
+}
+
+.navbar ul li .link:hover
+{
+    background:var(--Gr2);
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+/*Highlighting active page*/
+.activePage
+{
+    background: var(--Gr2);
+    border-radius: 10px;
+}
+
+/*Media queries*/
+
+/*Max-width media Queries*/
+
+/*Media Queries for width<=760*/
+@media only screen and (max-width:760px)
+{
+    :root
+    {
+        --nw:95vw;
+    }
+
+    .navbar
+    {
+        margin-top:1vh; 
+    }
+}
+
+/*Media Queries for width<=680*/
+@media only screen and (max-width:680px)
+{
+    .bar
+    {
+        display: initial;
+    }
+    :root
+    {
+        --nw:100vw;
+    }
+    .navbar
+    {
+        margin-top:0vh;   
+        border-radius: 0px;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .navbar ul
+    {
+        display: grid;
+        grid-template-columns: repeat(1,95% );
+        row-gap: 5px;
+        justify-content: center;
+        width:100vw;
+    }
+    .navbar ul li
+    {
+        justify-content: left;
+        margin: 0px;
+    }
+    .navbar ul li .link
+    {
+        width:100%;
+    }
+    .navbar ul li .link:hover
+    {
+        background:transparent;
+        font-weight: bolder;
+    }
+    .activePage
+    {
+        background:transparent;
+        /* color: rgb(0, 50, 50)!important; */
+        font-weight: bolder!important;
+    }
+    .visibility
+    {
+       display: none!important;
+    }
+}
+
+/*Min-width media Queries*/
+/*Media queries for >=1440px width*/
+@media only screen and (min-width:1440px)
+{
+    :root
+    {
+        --n1:3.75rem;
+        --n3:1.5rem;
+    }
+}
+/*Media queries for >=1500px width*/
+@media only screen and (min-width:1500px)
+{
+    :root
+    {
+        --n1:4rem;
+    }
+}
+/*Media queries for >=1600px width*/
+@media only screen and (min-width:1600px)
+{
+    :root
+    {
+        --n1:4.25rem;
+        --n3:1.6rem;
+    }
+}
+/*Media queries for >=1700px width*/
+@media only screen and (min-width:1700px)
+{
+    :root
+    {
+        --n1:4.5rem;
+        --n3:1.7rem;
+    }
+}
+/*Media queries for >=1800px width*/
+@media only screen and (min-width:1800px)
+{
+    :root
+    {
+        --n1:4.75rem;
+        --n3:1.8rem;
+
+    }
+}
+/*Media queries for >=1900px width*/
+@media only screen and (min-width:1900px)
+{
+    :root
+    {
+        --n1:5rem;
+        --n3:1.9rem;
+    }
+}
+/*Media queries for >=2000px width*/
+@media only screen and (min-width:2000px)
+{
+    :root
+    {
+        --n3:2.0rem;
+        --n1:5.25rem;
+    }
+}
+/*Media queries for >=2100px width*/
+@media only screen and (min-width:2100px)
+{
+    :root
+    {
+        --n1:5.25rem;
+        --n3:2.1rem;
+    }
+}
+/*Media queries for >=2200px width*/
+@media only screen and (min-width:2200px)
+{
+    :root
+    {
+        --n1:5.5rem;
+        --n3:2.2rem;
+    }
+}
+/*Media queries for >=2300px width*/
+@media only screen and (min-width:2300px)
+{
+    :root
+    {
+
+        --n3:2.3rem;
+        --n1:5.75rem;
+    }
+}
+/*Media queries for >=2400px width*/
+@media only screen and (min-width:2400px)
+{
+    :root
+    {
+
+        --n3:2.4rem;
+        --n1:6rem;
+    }
+}
+/*Media queries for >=2560px width*/
+@media only screen and (min-width:2500px)
+{
+    :root
+    {
+
+        --n3:2.5rem;
+        --n1:6rem;
+    }
+}
+
+
+
+

@@ -1,0 +1,233 @@
+@import url(../utilities.css);
+/*Global-Variables comman to all posts
+--pstw:default width of  post page
+--pstmwp:default width of post within post page
+--pst1:font size of main heading of the blog
+--pst2:font size of sub heading of the blog
+--pst3:font size of all paras in the blog and H3-headings(sub-sub-headings)
+--pst4:width and height of the download pdf icon and font size of download attribute
+*/
+
+:root
+{
+    --pstw:85vw;
+    --pstmwp:95%;
+    --pst1:2rem;
+    --pst2:1.5rem;
+    --pst3:1.2rem;
+    --pst4:1.2rem;
+}
+
+
+/*Main-post*/
+.main
+{
+    width:var(--pstw);
+    padding:10px;
+    background: var(--b3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main_post
+{
+    margin:30px 0px;
+    width: var(--pstmwp);
+    display: flex;
+    flex-direction: column;
+    background: var(--b6);
+}
+
+/*Post-desc*/
+.main_post  h1
+{
+    font-family: var(--f2);
+    color: var(--g3);
+    font-size: var(--pst1);
+    padding-left:10px;
+}
+/*Featured_img*/
+.featured_image
+{
+    margin: 20px 0px;
+    padding:0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    width:100%;
+}
+video
+{
+    width: 100%;
+}
+/*Coloring the tips*/
+.scarlet_red
+{
+    color: var(--r1);
+    font-weight: bold;
+}
+
+/*Media queries*/
+
+/*Max-width media queries*/
+
+/*Media Queries for width<=760*/
+@media only screen and (max-width:760px)
+{
+    :root
+    {
+        --pstw:95vw;
+    }
+}
+
+/*Media Queries for width<=680*/
+@media only screen and (max-width:680px)
+{
+    :root
+    {
+        --pst1:1.8rem;
+        --pst2:1.3rem;
+        --pst3:1rem;
+        --pst4:1.2rem;
+        --pstw:100vw;
+    }
+    .main_post
+    {
+        margin:15px 0px;
+    }
+}
+/*Media Queries for width<=450*/
+@media only screen and (max-width:450px)
+{
+    :root
+    {
+        --pst1:1.5rem;
+        --pst2:1.2rem;
+        --pst3:0.95rem;
+        --pst4:1rem;
+    }
+    .main_post
+    {
+        margin:5px 0px;
+    }
+}
+/*Media Queries for width<=400*/
+@media only screen and (max-width:400px)
+{
+    :root
+    {
+        --pst3:0.85rem;
+    }
+    .main_post
+    {
+        margin:0px;
+    }
+}
+/*Media Queries for width<=300*/
+@media only screen and (max-width:300px)
+{
+    :root
+    {
+        --pst1:1.2rem;
+        --pst2:1rem;
+        --pst3:0.85rem;
+        --pst4:0.95rem;
+    }
+
+}
+
+/*Min-width media queries*/
+/*Media Queries for width>=1500*/
+@media only screen and (min-width:1500px)
+{
+    :root
+    {
+        --pst1:2.25rem;
+        --pst2:1.8rem;
+        --pst3:1.4rem;
+        --pst4:1.4rem;
+    }
+}
+/*Media Queries for width>=1650*/
+@media only screen and (min-width:1650px)
+{
+    :root
+    {
+        --pst1:2.4rem;
+        --pst2:2.0rem;
+        --pst3:1.6rem;
+        --pst4:1.6rem;
+    }
+}
+/*Media Queries for width>=1850*/
+@media only screen and (min-width:1850px)
+{
+    :root
+    {
+        --pst1:2.6rem;
+        --pst2:2.2rem;
+        --pst3:1.8rem;
+        --pst4:1.8rem;
+    }
+}
+/*Media Queries for width>=2000*/
+@media only screen and (min-width:2000px)
+{
+    :root
+    {
+        --pst1:2.8rem;
+        --pst2:2.4rem;
+        --pst3:2rem;
+        --pst4:2rem;
+    }
+}
+
+/*Media Queries for width>=2250*/
+@media only screen and (min-width:2250px)
+{
+    :root
+    {
+        --pst1:3rem;
+        --pst2:2.6rem;
+        --pst3:2.2rem;
+        --pst4:2.2rem;
+    }
+}
+/*Media Queries for width>=2450*/
+@media only screen and (min-width:2450px)
+{
+    :root
+    {
+        --pst1:3.2rem;
+        --pst2:2.8rem;
+        --pst3:2.4rem;
+        --pst4:2.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
