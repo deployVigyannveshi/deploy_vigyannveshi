@@ -1,0 +1,79 @@
+@import url("../../utilities.css");
+@import url("../post.css");
+
+/*disclaimer*/
+.disclaimer h2
+{
+    color:var(--r2);
+    font-size: var(--pst2);
+    font-family: var(--f1);
+    padding-left:10px;
+}
+.disclaimer p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;
+    padding:10px;
+}
+
+/*acknowledgements*/
+.acknowledgements h2
+{
+    color:var(--r2);
+    font-size: var(--pst2);
+    font-family: var(--f1);
+    padding-left:10px;
+}
+.acknowledgements p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;
+    padding:10px;
+}
+/*doityourself*/
+.doityourself h2
+{
+    color:var(--r2);
+    font-size: var(--pst2);
+    font-family: var(--f1);
+    padding-left:10px;
+}
+.doityourself p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;
+    padding:10px;
+}
+
+.doityourself video
+{
+    width:80%;
+    height:80%;
+    padding:10px;
+}
+/*Conclusion*/
+.conclusion
+{
+    margin-bottom:20px;
+    padding:0px 10px;
+    display: flex;
+    flex-direction: column;  
+}
+.conclusion p
+{
+    color:var(--t);
+    font-family:var(--f5);
+    font-size: var(--pst3);
+    font-weight: 600;    
+}
+.conclusion a
+{
+    text-decoration: none;
+    color:var(--t1);
+}

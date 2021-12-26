@@ -17,6 +17,7 @@ import Vidya from "./pages/vidya/Vidya.jsx";
 /*Importing-Posts */
 import JustPredictTheRemainder from "./posts/Just_predict_the_remainder/JustPredictTheRemainder";
 import VoltageRegulator from "./posts/voltage_regulator/VoltageRegulator";
+import ControllingBrightnessOfImageUsingPhotoresistor from "./posts/Controlling_brightness_of_image_using_photoresistor/ControllingBrightnessOfImageUsingPhotoresistor";
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
             </Route>
             <Route path="/just_predict_the_remainder">
               <JustPredictTheRemainder />
+            </Route>
+            <Route path="/controlling_brightness_of_image_using_photoresistor">
+              <ControllingBrightnessOfImageUsingPhotoresistor />
             </Route>
             {/* ***Routing Posts*** */}
             {/* Routing Pages */}
