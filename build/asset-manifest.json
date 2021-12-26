@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2dfe592.chunk.css",
-    "main.js": "/static/js/main.dd9a45fa.chunk.js",
-    "main.js.map": "/static/js/main.dd9a45fa.chunk.js.map",
+    "main.css": "/static/css/main.b54f78e2.chunk.css",
+    "main.js": "/static/js/main.54fbf42e.chunk.js",
+    "main.js.map": "/static/js/main.54fbf42e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.778da1e2.js",
     "runtime-main.js.map": "/static/js/runtime-main.778da1e2.js.map",
-    "static/js/2.5cdeb85d.chunk.js": "/static/js/2.5cdeb85d.chunk.js",
-    "static/js/2.5cdeb85d.chunk.js.map": "/static/js/2.5cdeb85d.chunk.js.map",
+    "static/js/2.4f070ef2.chunk.js": "/static/js/2.4f070ef2.chunk.js",
+    "static/js/2.4f070ef2.chunk.js.map": "/static/js/2.4f070ef2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a2dfe592.chunk.css.map": "/static/css/main.a2dfe592.chunk.css.map",
-    "static/js/2.5cdeb85d.chunk.js.LICENSE.txt": "/static/js/2.5cdeb85d.chunk.js.LICENSE.txt",
+    "static/css/main.b54f78e2.chunk.css.map": "/static/css/main.b54f78e2.chunk.css.map",
+    "static/js/2.4f070ef2.chunk.js.LICENSE.txt": "/static/js/2.4f070ef2.chunk.js.LICENSE.txt",
     "static/media/5_simple_steps_to_create_2_in_1_Voltage.8b517ac5.pdf": "/static/media/5_simple_steps_to_create_2_in_1_Voltage.8b517ac5.pdf",
+    "static/media/Controlling_brightness_of_image_using_photoresistor.25fc5b5f.mp4": "/static/media/Controlling_brightness_of_image_using_photoresistor.25fc5b5f.mp4",
     "static/media/Just_Predict_the_Remainder.ee551c7c.pdf": "/static/media/Just_Predict_the_Remainder.ee551c7c.pdf",
     "static/media/a11.b709fbb2.png": "/static/media/a11.b709fbb2.png",
     "static/media/a12.4f1c4cb7.png": "/static/media/a12.4f1c4cb7.png",
@@ -23,6 +24,7 @@
     "static/media/featured_img.7e4a5ff4.png": "/static/media/featured_img.7e4a5ff4.png",
     "static/media/featured_img.84ff75fd.png": "/static/media/featured_img.84ff75fd.png",
     "static/media/featured_img.b36de8e1.svg": "/static/media/featured_img.b36de8e1.svg",
+    "static/media/featured_img.c9364b61.svg": "/static/media/featured_img.c9364b61.svg",
     "static/media/idea.7e852b85.png": "/static/media/idea.7e852b85.png",
     "static/media/main_img.4ea57db6.png": "/static/media/main_img.4ea57db6.png",
     "static/media/main_logo.6fd8f5d0.svg": "/static/media/main_logo.6fd8f5d0.svg",
@@ -35,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.778da1e2.js",
-    "static/js/2.5cdeb85d.chunk.js",
-    "static/css/main.a2dfe592.chunk.css",
-    "static/js/main.dd9a45fa.chunk.js"
+    "static/js/2.4f070ef2.chunk.js",
+    "static/css/main.b54f78e2.chunk.css",
+    "static/js/main.54fbf42e.chunk.js"
   ]
 }
