@@ -57,6 +57,9 @@ export default function About() {
           <a href="mailto:mailtovigyannveshi@gmail.com">
             mailtovigyannveshi@gmail.com
           </a>
+          <br />
+          Github:{" "}
+          <a href="https://github.com/vigyannveshi">https://github.com/vigyannveshi</a>  
         </p>
         <br />
       </div>
