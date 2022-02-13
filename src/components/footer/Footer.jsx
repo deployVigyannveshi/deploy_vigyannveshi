@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="f1">
         {/* <br/> */}
-        Copyrights &copy; 2021 VigyannVeshi |All Rights Reserved
+        Copyrights &copy; 2022 VigyannVeshi |All Rights Reserved
         <br />
       </div>
       <div className="f2">
